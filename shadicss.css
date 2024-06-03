@@ -1,0 +1,625 @@
+*{
+    margin: 0px;
+}
+.first{
+    height: 600px;
+    width: 100%;
+    background-image: url(./pexels-emma-bauso-3585812.jpg);
+    background-size: 2000px;
+    background-position:-150px -1500px;
+    background-repeat: no-repeat;
+}
+.first1{
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+.firstlogo{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firsttext{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firsttext a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+}
+.firsttext a:hover{
+    text-decoration: underline;
+}
+.space{
+    height: 200px;
+    width: 100%;
+}
+.first2{
+    height: 250px;
+    width: 100%;
+}
+.first2text{
+    height: 115px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    text-shadow: 1px 2px 5px black;
+}
+.first2box{
+    height: 135px;
+    width: 100%;
+    display: flex;
+}
+.box1{
+    height: 135px;
+    width: 10%;
+}
+.box2{
+    height: 100px;
+    width: 80%;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.373);
+}
+.box3{
+    height: 135px;
+    width: 10%;
+}
+
+
+.inbox1{
+    width: 190px;
+    height: 40px;
+}
+.inbox2{
+    width: 120px;
+    height: 40px;
+}
+.inbox3{
+    width: 120px;
+    height: 40px;
+}
+.inbox4{
+    width: 190px;
+    height: 40px;
+}
+.inbox5{
+    width: 270px;
+    height: 40px;
+}
+
+.box2 select{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: rgb(109, 112, 112);
+    font-size: 15px;
+}
+
+.button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(114, 114, 229);
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: rgb(72, 72, 228);
+
+}
+h3{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:400;
+}
+.p1{
+    width: 100px;
+    position: relative;
+    top: 7px;
+    left: 274px;
+    font-size: 16px;
+    width: 600px;
+    z-index: 1;
+}
+.p2{
+    width: 100px;
+    position: relative;
+    top: 7px;
+    left: 400px;
+    font-size: 16px;
+    width: 500px;
+    z-index: 2;
+}
+.inboxmain2{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.inboxmain1{
+    height: 30px;
+    width: 100%;
+    font-size: 17px;
+
+}
+
+.s1{
+    position: relative;
+    top: 10px;
+    left: 12px;
+
+}
+.s2{
+    position: relative;
+    top: 10px;
+    left: 105px;
+}
+.s3{
+    position: relative;
+    top: 10px;
+    left:364px;
+}
+.s4{
+    position: relative;
+    top: 10px;
+    left: 498px;
+}
+
+.sec{
+    background-color: rgb(235, 239, 243);
+    height: 450px;
+    width: 100%;
+}
+.sec1{
+    height: 120px;
+    width: 100%;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ff5a60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec2{
+
+    height: 320px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sec2m{
+
+    height: 300px;
+    width: 400px;
+}
+.secin1{
+    height:200px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secin2{
+    height: 100px;
+    width: 1005;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.secinin{
+    height: 130px;
+    width: 130px;
+    background-color: rgb(111, 184, 252);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+
+}
+.secinin:hover{
+    background-color: rgb(24, 129, 209);
+}
+.secininin{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 110px;
+}
+
+.sec a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(30, 176, 220);
+}
+.sec a:hover{
+    text-decoration: underline;
+}
+.sec p{
+    color: rgb(78, 75, 75);
+}
+.secinin1{
+    background-image: url(./note.png);
+
+}
+.secinin2{
+    background-image: url(./user.png);
+}
+.secinin3{
+    background-image: url(./video.png);
+}
+
+.thr{
+    height: 750px;
+    width: 100%;
+
+}
+.thr1{
+    height: 250px;
+    width: 100%;
+    color: #ff5a60;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.thr2{
+    height: 500px;
+    width: 100%;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    
+
+}
+.thr2m{
+    height: 450px;
+    width: 350px;
+    box-shadow: 0px 0px 5px rgb(100, 98, 98);
+    transition: 0.3s;
+    
+}
+.thr2m:hover{
+    box-shadow: 0px 0px 10px rgb(32, 31, 31);
+
+}
+.thr2in1{
+
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thr2in2{
+    height: 150px;
+    width: 100%;
+}
+.img1{
+    background-image: url(./couple-5895728_1280.jpg);
+}
+.img2{
+    background-image: url(./love-2587456_1280.jpg);
+}
+.img3{background-image: url(./love-6575234_1280.jpg);
+}
+
+.thr2 h2{
+    padding: 10px;
+    color: rgb(90, 87, 87);
+
+}
+.thr2 p{
+    padding: 10px;
+    color: rgb(82, 78, 78);
+}
+
+.four{
+    height: 100px;
+    width: 100%;
+    background-color: #ff5a60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 13px;
+    color: white;
+}
+.button2{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #ff5a60;
+    color: white;
+    border: 2px white solid;
+    box-shadow: 0px 0px 5px rgb(51, 50, 50);
+    transition: 0.5s;
+}
+
+.button2:hover{
+    background-color: white;
+    color: blue;
+
+}
+.fiv{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fiv img{
+    height: 70px;
+}
+
+.six{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.six h1{
+    color: #ff5a60;
+    font-weight: 100;
+
+}
+.six p{
+    text-align: center;
+}
+
+.six a{
+    text-decoration: none;
+    color: blue;
+}
+.six a:hover{
+    text-decoration: underline;
+}
+
+
+.seve{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: black;
+}
+
+.seve a{
+    text-decoration: none;
+    color:rgb(64, 173, 227) ;
+}
+.seve a:hover{
+    text-decoration: underline;
+}
+
+.eig{
+    height: 40px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content:center;
+}
+.eig h2{
+    background-color: rgb(64, 173, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    font-size: 20px;
+    width: 220px;
+    height: 40px;
+}
+
+.nine{
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+.nine1{
+    height: 100px;
+    width: 20%;
+}
+.nine2{
+    height: 100px;
+    width: 60%;
+    display: flex;
+}
+.nine3{
+    height: 100px;
+    width: 20%;
+
+}
+.ninein1{
+    height: 100px;
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.ninein2{
+    height: 100px;
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.ninein3{
+    height: 100px;
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.nineinin1{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url(./icons8-user-48.png);
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(114, 112, 112);
+}
+.nineinin2{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url(./icons8-protect-50.png);
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(114, 112, 112);
+}
+.nineinin3{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url(./icons8-lock-50.png);
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(114, 112, 112);
+}
+
+.ninein1 h3{
+    color: rgb(102, 100, 100);
+}
+
+.ninein2 h3{
+    color:  rgb(102, 100, 100);
+}
+.ninein3 h3{
+    color:  rgb(102, 100, 100);
+}
+
+.space2{
+    height: 30px;
+    width: 100%;
+}
+.line{
+    display: flex;
+}
+.line1{
+    width: 20%;
+}
+.line2{
+    width: 20%;
+}
+.ten{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.tenb{
+    height: 300px;
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tenin1{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.tenin2{
+    height: 240px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.space3{
+    height: 30px;
+    width: 100%;
+}
+
+.tenin1{
+    color: rgb(84, 80, 80);
+}
+.tenin2 a{
+    color: rgb(102, 97, 97);
+    text-decoration: none;
+}
+.tenin2 a:hover{
+    text-decoration: underline;
+}
+.final{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(232, 224, 224);
+    display: flex;
+}
+.final1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 60px;
+   width: 60%;
+   font-size: 13px;
+}
+.final2{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 60px;
+   width: 60%;
+   font-size: 13px;
+    
+}
+.finaltext{
+    text-decoration: none;
+    color: rgb(70, 168, 224);
+}
+.finaltext:hover{
+    text-decoration: underline;
+}
+
+
+
